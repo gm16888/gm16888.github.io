@@ -1,2 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>绝版青春的博客</title><link>https://gm16888.github.io</link><description>Blog description</description><copyright>绝版青春的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/177073117?u=42b6758ef39f475657f817f8ac0334edeadd1761&amp;v=4</url><title>avatar</title><link>https://gm16888.github.io</link></image><lastBuildDate>Tue, 30 Jul 2024 23:22:53 +0000</lastBuildDate><managingEditor>绝版青春的博客</managingEditor><ttl>60</ttl><webMaster>绝版青春的博客</webMaster><item><title>test</title><link>https://gm16888.github.io/post/test.html</link><description>做客服，要提前设置好快捷短语，保存在客服宝中，这样在忙碌的时候才能及时回复客户。</description><guid isPermaLink="true">https://gm16888.github.io/post/test.html</guid><pubDate>Tue, 30 Jul 2024 23:05:04 +0000</pubDate></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>绝版青春的博客</title><link>https://gm16888.github.io</link><description>Blog description</description><copyright>绝版青春的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/177073117?u=42b6758ef39f475657f817f8ac0334edeadd1761&amp;v=4</url><title>avatar</title><link>https://gm16888.github.io</link></image><lastBuildDate>Mon, 26 Aug 2024 15:31:56 +0000</lastBuildDate><managingEditor>绝版青春的博客</managingEditor><ttl>60</ttl><webMaster>绝版青春的博客</webMaster><item><title>test</title><link>https://gm16888.github.io/post/test.html</link><description>&gt; [!NOTE]&#13;
+&gt; Useful information that users should know, even when skimming content.&#13;
+&#13;
+&gt; [!TIP]&#13;
+&gt; The background color is `#ffffff` for light mode and `#000000` for dark mode.&#13;
+&#13;
+&#13;
+&gt; [!TIP]&#13;
+&gt; The background color is `#RRGGBB` for light mode and `#000000` for dark mode.&#13;
+&#13;
+&gt; [!WARNING]&#13;
+&gt; Urgent info that needs immediate user attention to avoid problems.&#13;
+&#13;
+&gt; [!CAUTION]&#13;
+&gt; Advises about risks or negative outcomes of certain actions.&#13;
+&#13;
+The background color is `#ffffff` for light mode and `#000000` for dark mode.&#13;
+&#13;
+做客服，要提前设置好快捷短语，保存在客服宝中，这样在忙碌的时候才能及时回复客户。</description><guid isPermaLink="true">https://gm16888.github.io/post/test.html</guid><pubDate>Tue, 30 Jul 2024 23:05:04 +0000</pubDate></item></channel></rss>

@@ -1,6 +1,25 @@
-做客服，要提前设置好快捷短语，保存在客服宝中，这样在忙碌的时候才能及时回复客户。下次就可以直接用，不用辛苦打字。
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
 
-一、基础问候
+> [!TIP]
+> The background color is `#ffffff` for light mode and `#000000` for dark mode.
+
+
+> [!TIP]
+> The background color is `#RRGGBB` for light mode and `#000000` for dark mode.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+
+The background color is `#ffffff` for light mode and `#000000` for dark mode.
+
+做客服，要提前设置好快捷短语，保存在客服宝中，这样在忙碌的时候才能及时回复客户。下次就可以直接用，不用辛苦打字。
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+ 一、基础问候
 
 （1）欢迎光临话术：亲，您好！欢迎光临本店，请问有什么可以为您效劳的呢？
 
