@@ -1,4 +1,4 @@
-# 绝版青春的博客 :link: https://gm16888.github.io 
+# test-GM随记的博客 :link: https://gm16888.github.io 
 ### :page_facing_up: [2](https://gm16888.github.io/tag.html) 
 ### :speech_balloon: 1 
 ### :hibiscus: 15885 
