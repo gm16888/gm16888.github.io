@@ -1,0 +1,34 @@
+> [!NOTE]
+>只允许页面在 iframe 中加载，直接访问页面则跳转到 baidu.com。
+只允许本站的 iframe 加载页面，如果是其他站点的 iframe 加载则跳转到 baidu.com。
+ ```
+<script>
+    // 检查页面是否在 iframe 中加载
+    if (window.top === window.self) {
+        // 如果页面不是在 iframe 中加载
+        window.location.href = 'https://www.baidu.com';
+    } else {
+        // 如果页面在 iframe 中加载，检查父页面的来源
+        if (document.referrer && (new URL(document.referrer).origin !== window.location.origin)) {
+            // 如果父页面的来源不是本站，则跳转到百度
+            window.top.location.href = 'https://www.baidu.com';
+        }
+    }
+</script>
+```
+> [!NOTE]
+>禁止F12+ 解除右键 [参考github](https://github.com/theajack/disable-devtool/blob/master/README.cn.md)
+
+```
+<script disable-devtool-auto src="https://cdn.jsdelivr.net/npm/disable-devtool@latest"></script>
+<script>
+    document.addEventListener('contextmenu', function(event) {
+        event.stopPropagation(); // 阻止disable-devtool的事件传播
+        event.stopImmediatePropagation(); // 立即阻止事件传播
+        return true; // 允许右键菜单
+    }, true);
+</script>
+
+```
+> [!NOTE]
+>禁止F12+ 解除右键 [参考github](https://github.com/theajack/disable-devtool/blob/master/README.cn.md)
