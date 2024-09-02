@@ -32,3 +32,11 @@
 ```
 > [!NOTE]
 >禁止F12+ 解除右键 [参考github](https://github.com/theajack/disable-devtool/blob/master/README.cn.md)
+
+> [!NOTE]
+>fofa 语法
+title="- LuCI" && (icon_hash="-2132841455" || icon_hash="1026535468" || icon_hash="-1566344686" || icon_hash="1768918484" || icon_hash="692834389" || icon_hash="-17760346" || icon_hash="1206686446" || icon_hash="474428474" || icon_hash="-1148219260")
+is_domain=true 搜索域名的资产,只接受true和false。
+after=”2017” && before=”2017-10-01” 时间范围段搜索
+body_hash="-1567669936" && (country="JP" || country="SG" || region="HK") && is_domain=false+is_honeypot=false
+
