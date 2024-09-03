@@ -40,3 +40,10 @@ is_domain=true 搜索域名的资产,只接受true和false。
 after=”2017” && before=”2017-10-01” 时间范围段搜索
 body_hash="-1567669936" && (country="JP" || country="SG" || region="HK") && is_domain=false+is_honeypot=false
 
+> [!NOTE]
+>notepad 如何批量删除每一行 指定第一个符号, 后面的所有 
+打开 Notepad++ 并加载你的文件。
+按 Ctrl + H 打开“替换”对话框。
+设置搜索模式为正则表达式：
+在“查找内容”框中输入正则表达式`,.*`如果是其他符号，比如冒号，可以输入`:.*`
+在“替换为”框中留空。点击“全部替换”。
