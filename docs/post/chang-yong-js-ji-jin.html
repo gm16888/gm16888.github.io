@@ -11,9 +11,33 @@
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
 <meta name="description" content="> [!NOTE]
+>自动化相关 浏览器输入chrome://version 查看路径 
+cmd运行 
+`'C:\Program Files\Google\Chrome\Application\chrome.exe' --remote-debugging-port=9222 --user-data-dir='C:\Users\test-one\AppData\Local\Google\Chrome\User Data\Guest Profile'`
+或者如下新建bat点击运行
+ ```
+@echo off
+REM 运行Google Chrome，启用远程调试和指定用户数据目录
+start '' 'C:\Program Files\Google\Chrome\Application\chrome.exe' --remote-debugging-port=9222 --user-data-dir='C:\Users\test-one\AppData\Local\Google\Chrome\User Data\Guest Profile'
+ ```
+
+
+> [!NOTE]
 >只允许页面在 iframe 中加载，直接访问页面则跳转到 baidu.com。">
 <meta property="og:title" content="常用js集锦">
 <meta property="og:description" content="> [!NOTE]
+>自动化相关 浏览器输入chrome://version 查看路径 
+cmd运行 
+`'C:\Program Files\Google\Chrome\Application\chrome.exe' --remote-debugging-port=9222 --user-data-dir='C:\Users\test-one\AppData\Local\Google\Chrome\User Data\Guest Profile'`
+或者如下新建bat点击运行
+ ```
+@echo off
+REM 运行Google Chrome，启用远程调试和指定用户数据目录
+start '' 'C:\Program Files\Google\Chrome\Application\chrome.exe' --remote-debugging-port=9222 --user-data-dir='C:\Users\test-one\AppData\Local\Google\Chrome\User Data\Guest Profile'
+ ```
+
+
+> [!NOTE]
 >只允许页面在 iframe 中加载，直接访问页面则跳转到 baidu.com。">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://gm16888.github.io/post/chang-yong-js-ji-jin.html">
@@ -85,7 +109,16 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p><p>只允许页面在 iframe 中加载，直接访问页面则跳转到 baidu.com。<br>
+<div class="markdown-body" id="postBody"><div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p><p>自动化相关 浏览器输入chrome://version 查看路径<br>
+cmd运行<br>
+<code class="notranslate">"C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir="C:\Users\test-one\AppData\Local\Google\Chrome\User Data\Guest Profile"</code><br>
+或者如下新建bat点击运行</p>
+</div>
+<pre class="notranslate"><code class="notranslate">@echo off
+REM 运行Google Chrome，启用远程调试和指定用户数据目录
+start "" "C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir="C:\Users\test-one\AppData\Local\Google\Chrome\User Data\Guest Profile"
+</code></pre>
+<div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p><p>只允许页面在 iframe 中加载，直接访问页面则跳转到 baidu.com。<br>
 只允许本站的 iframe 加载页面，如果是其他站点的 iframe 加载则跳转到 baidu.com。</p>
 </div>
 <pre class="notranslate"><code class="notranslate">&lt;script&gt;

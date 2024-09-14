@@ -1,4 +1,16 @@
 > [!NOTE]
+>自动化相关 浏览器输入chrome://version 查看路径 
+cmd运行 
+`"C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir="C:\Users\test-one\AppData\Local\Google\Chrome\User Data\Guest Profile"`
+或者如下新建bat点击运行
+ ```
+@echo off
+REM 运行Google Chrome，启用远程调试和指定用户数据目录
+start "" "C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir="C:\Users\test-one\AppData\Local\Google\Chrome\User Data\Guest Profile"
+ ```
+
+
+> [!NOTE]
 >只允许页面在 iframe 中加载，直接访问页面则跳转到 baidu.com。
 只允许本站的 iframe 加载页面，如果是其他站点的 iframe 加载则跳转到 baidu.com。
  ```

@@ -1,5 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>test-GM随记的博客</title><link>https://gm16888.github.io</link><description>Blog description</description><copyright>test-GM随记的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/177073117?u=42b6758ef39f475657f817f8ac0334edeadd1761&amp;v=4</url><title>avatar</title><link>https://gm16888.github.io</link></image><lastBuildDate>Wed, 28 Aug 2024 19:18:46 +0000</lastBuildDate><managingEditor>test-GM随记的博客</managingEditor><ttl>60</ttl><webMaster>test-GM随记的博客</webMaster><item><title>常用js集锦</title><link>https://gm16888.github.io/post/chang-yong-js-ji-jin.html</link><description>&gt; [!NOTE]&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>test-GM随记的博客</title><link>https://gm16888.github.io</link><description>Blog description</description><copyright>test-GM随记的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/177073117?u=42b6758ef39f475657f817f8ac0334edeadd1761&amp;v=4</url><title>avatar</title><link>https://gm16888.github.io</link></image><lastBuildDate>Sat, 14 Sep 2024 10:11:48 +0000</lastBuildDate><managingEditor>test-GM随记的博客</managingEditor><ttl>60</ttl><webMaster>test-GM随记的博客</webMaster><item><title>常用js集锦</title><link>https://gm16888.github.io/post/chang-yong-js-ji-jin.html</link><description>&gt; [!NOTE]&#13;
+&gt;自动化相关 浏览器输入chrome://version 查看路径 &#13;
+cmd运行 &#13;
+`'C:\Program Files\Google\Chrome\Application\chrome.exe' --remote-debugging-port=9222 --user-data-dir='C:\Users\test-one\AppData\Local\Google\Chrome\User Data\Guest Profile'`&#13;
+或者如下新建bat点击运行&#13;
+ ```&#13;
+@echo off&#13;
+REM 运行Google Chrome，启用远程调试和指定用户数据目录&#13;
+start '' 'C:\Program Files\Google\Chrome\Application\chrome.exe' --remote-debugging-port=9222 --user-data-dir='C:\Users\test-one\AppData\Local\Google\Chrome\User Data\Guest Profile'&#13;
+ ```&#13;
+&#13;
+&#13;
+&gt; [!NOTE]&#13;
 &gt;只允许页面在 iframe 中加载，直接访问页面则跳转到 baidu.com。</description><guid isPermaLink="true">https://gm16888.github.io/post/chang-yong-js-ji-jin.html</guid><pubDate>Tue, 27 Aug 2024 22:49:57 +0000</pubDate></item><item><title>BT相关</title><link>https://gm16888.github.io/post/BT-xiang-guan.html</link><description>&gt; [!NOTE]&#13;
 &gt; ## 一     标准降级版.&#13;
 &#13;
