@@ -108,7 +108,12 @@ location / {
 >  如图所示位置在最下方access_log 上方 其中http://127.0.0.1:1457的端口号根据自己设定的自定义
 ![1](https://github.com/user-attachments/assets/b3e13cc1-0551-418f-8bd7-e83f81a04233)
 
-
+>  4.4  ==== BT ssl证书添加失败 您好，这个错误通常是由于使用了不兼容的 OpenSSL 版本导致的，X509Req 版本只支持 0。您可到服务器终端执行以下命令：
+```
+btpip install pyOpenSSL==22.1.0
+btpip install cffi==1.14
+bt 1
+```
 
 
 

@@ -255,6 +255,13 @@ location / {
 <p>如图所示位置在最下方access_log 上方 其中<a href="http://127.0.0.1:1457%E7%9A%84%E7%AB%AF%E5%8F%A3%E5%8F%B7%E6%A0%B9%E6%8D%AE%E8%87%AA%E5%B7%B1%E8%AE%BE%E5%AE%9A%E7%9A%84%E8%87%AA%E5%AE%9A%E4%B9%89" rel="nofollow">http://127.0.0.1:1457的端口号根据自己设定的自定义</a><br>
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/b3e13cc1-0551-418f-8bd7-e83f81a04233"><img src="https://github.com/user-attachments/assets/b3e13cc1-0551-418f-8bd7-e83f81a04233" alt="1" style="max-width: 100%;"></a></p>
 </blockquote>
+<blockquote>
+<p>4.4  ==== BT ssl证书添加失败 您好，这个错误通常是由于使用了不兼容的 OpenSSL 版本导致的，X509Req 版本只支持 0。您可到服务器终端执行以下命令：</p>
+</blockquote>
+<pre class="notranslate"><code class="notranslate">btpip install pyOpenSSL==22.1.0
+btpip install cffi==1.14
+bt 1
+</code></pre>
 <div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p>
 <h2>================= bt后门去除=================</h2>
 </div>
