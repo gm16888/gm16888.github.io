@@ -418,3 +418,20 @@ print("Hello, world!")
 </code></pre>
 </div>
 
+##  宝塔  Debian 11.6 64位 硅云
+Python 版本：
+```python3 --version```
+如果没有安装 Python 3，请使用以下命令安装（在有网络的情况下）：
+```yum install python3
+```
+
+安装 pip
+```curl -O https://bootstrap.pypa.io/get-pip.py
+python3 get-pip.py
+```
+3. 验证 pip 是否成功安装
+`pip3 --version`
+4. 使用 pip 安装 Pillow
+`pip3 install Pillow`
+
+
