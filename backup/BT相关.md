@@ -361,8 +361,14 @@ if ($http_user_agent !~* "MicroMessenger|alipayclient") {
 >  #### ==============修改22端口==============
 
 > [!WARNING]
->  #### ==============定时删除==============
-> [!WARNING]
+>  ## ==============数据库定时删除==============
+> 1 链接ssh 登录sql   `mysql -u root` 
+> 2 要为用户 cms_com 授予超级权限，可以使用以下 SQL 命令t` GRANT ALL PRIVILEGES ON *.* TO 'cms_com'@'localhost' WITH GRANT OPTION;t`  
+> 3 关闭 公共访问权限
+FLUSH PRIVILEGES;
+
+> `git clone https://github.com/lihancong/tonyenc.git`
+
 >  #### ==============宝塔计划任务Shell定时删除某各目录下所有文件==============
 
 
