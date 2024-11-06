@@ -4,6 +4,24 @@
 
 >### **1.  安装官方最新版**
 > `yum install -y wget && wget -O install.sh http://download.bt.cn/install/install_6.0.sh && sh install.sh ed8484bec`
+>#### **1.1  安装国际版**
+`yum install -y wget && wget -O install.sh http://www.aapanel.com/script/install_6.0_en.sh && bash install.sh aapanel`
+备份原有的 YUM 源文件
+`sudo mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.bak`
+下载新的 YUM 源 使用阿里云或腾讯云等国内源
+`sudo curl -o /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo`
+清除并重新生成缓存
+`sudo yum clean all
+sudo yum makecache`
+安装 wget 和执行脚本
+`sudo yum install -y wget`
+`wget -O install.sh http://www.aapanel.com/script/install_6.0_en.sh`
+`bash install.sh aapanel`
+
+
+
+
+
 
 
 >### 2. 下载降级版本 链接参考https://github.com/wei/baota. 
