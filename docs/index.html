@@ -1,27 +1,6 @@
 <!DOCTYPE html>
 <html data-color-mode="light" data-dark-theme="dark" data-light-theme="light" lang="zh-CN">
 <head>
-     <script>
-        // 立即执行的函数
-        (function checkPassword() {
-            // 如果是首页，执行密码验证
-            if (window.location.pathname === '/' || window.location.pathname === '/index.html') {
-                // 如果没有验证过
-                if (!localStorage.getItem('password_verified')) {
-                    var password = prompt('请输入访问密码：');
-                    // 这里设置你的密码
-                    if (password !== '123456') {
-                        alert('密码错误！');
-                        // 重定向到一个错误页面或者刷新当前页面
-                        window.location.reload();
-                        return;
-                    }
-                    // 密码正确，存储到 localStorage
-                    localStorage.setItem('password_verified', 'true');
-                }
-            }
-        })();
-    </script>
     <meta content="text/html; charset=utf-8" http-equiv="content-type" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -38,6 +17,7 @@
 <meta property="og:url" content="https://gm16888.github.io">
 <meta property="og:image" content="https://avatars.githubusercontent.com/u/177073117?u=42b6758ef39f475657f817f8ac0334edeadd1761&v=4">
 <title>test-GM随记的博客</title>
+
 </head>
 <style>
 body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;padding: 45px;font-size: 16px;font-family: sans-serif;line-height: 1.25;}
