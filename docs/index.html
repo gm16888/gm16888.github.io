@@ -17,20 +17,25 @@
 <meta property="og:url" content="https://gm16888.github.io">
 <meta property="og:image" content="https://avatars.githubusercontent.com/u/177073117?u=42b6758ef39f475657f817f8ac0334edeadd1761&v=4">
 <title>test-GM随记的博客</title>
-    <script>
-        (function() {
-            if (sessionStorage.getItem('blog_auth')) {
-                return;
+ <script>
+        // 立即执行的函数
+        (function checkPassword() {
+            // 如果是首页，执行密码验证
+            if (window.location.pathname === '/' || window.location.pathname === '/index.html') {
+                // 如果没有验证过
+                if (!localStorage.getItem('password_verified')) {
+                    var password = prompt('请输入访问密码：');
+                    // 这里设置你的密码
+                    if (password !== '123456') {
+                        alert('密码错误！');
+                        // 重定向到一个错误页面或者刷新当前页面
+                        window.location.reload();
+                        return;
+                    }
+                    // 密码正确，存储到 localStorage
+                    localStorage.setItem('password_verified', 'true');
+                }
             }
-            
-            let password = prompt('请输入访问密码:', '');
-            if (password !== 'your_password') {  // 123456
-                alert('密码错误');
-                window.location.href = 'about:blank';
-                return;
-            }
-            
-            sessionStorage.setItem('blog_auth', 'true');
         })();
     </script>
 </head>
