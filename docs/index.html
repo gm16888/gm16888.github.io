@@ -17,7 +17,22 @@
 <meta property="og:url" content="https://gm16888.github.io">
 <meta property="og:image" content="https://avatars.githubusercontent.com/u/177073117?u=42b6758ef39f475657f817f8ac0334edeadd1761&v=4">
 <title>test-GM随记的博客</title>
-
+    <script>
+        (function() {
+            if (sessionStorage.getItem('blog_auth')) {
+                return;
+            }
+            
+            let password = prompt('请输入访问密码:', '');
+            if (password !== 'your_password') {  // 123456
+                alert('密码错误');
+                window.location.href = 'about:blank';
+                return;
+            }
+            
+            sessionStorage.setItem('blog_auth', 'true');
+        })();
+    </script>
 </head>
 <style>
 body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;padding: 45px;font-size: 16px;font-family: sans-serif;line-height: 1.25;}
